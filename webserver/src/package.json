@@ -1,0 +1,30 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Web server for Maps.Relax Android application",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 --exit",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Kernel Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "calculate-correlation": "^1.2.3",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "exact-math": "^2.2.3",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "express-rate-limit": "^6.7.0",
+    "local-reverse-geocoder": "^0.14.0",
+    "lru-cache": "^7.14.1",
+    "mocha": "^10.1.0",
+    "overpass.js": "^1.0.0",
+    "pg": "^8.8.0",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,7 @@
+Meet started at 17:40
+Attendants: Martynas M., Arminas A., Dominykas B.
+
+Notes:
+Creating databases (main one and one for testing purposes)
+
+Meet ended at 18:45

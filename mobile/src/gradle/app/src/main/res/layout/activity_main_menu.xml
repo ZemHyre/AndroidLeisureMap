@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    tools:layout_editor_absoluteX="-20dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <Button
+        android:id="@+id/findActivities"
+        android:layout_width="205dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:text="@string/find_activities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="205dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="100dp"
+        android:textSize="14sp"
+        android:text="@string/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="205dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:text="@string/sign_in_sign_up"
+        android:onClick="saveLoggedInSession"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findActivities" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="205dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:text="@string/log_out"
+        android:onClick="logOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signIn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/main_menu"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

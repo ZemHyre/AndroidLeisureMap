@@ -1,0 +1,13 @@
+Live meet started at 11:00
+Attendants: Martynas, Arminas, Dominykas
+
+Notes:
+Created group contract.
+Decided that we will create android app.
+Searched for useful tools to track time, make notes etc.
+Discussed how we should approach our project (roles...).
+
+Notes for next meeting:
+Creating prototype of the app.
+
+Meeting ended at 13:21

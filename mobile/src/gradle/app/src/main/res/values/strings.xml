@@ -1,0 +1,40 @@
+<resources>
+    <string-array name="distance_array">
+        <item>Choose distance</item>
+        <item>&lt; 1 km</item>
+        <item>&lt; 3 km</item>
+        <item>&lt; 5 km</item>
+        <item>&lt; 10 km</item>
+        <item>&lt; 20 km</item>
+        <item>&lt; 50 km</item>
+        <item>&lt; 100 km</item>
+        <item>&lt; 200 km</item>
+        <item>&lt; 300 km</item>
+        <item>&lt; 400 km</item>
+    </string-array>
+    <string-array name="rating_array">
+        <item>Choose rating</item>
+        <item>&gt; 1 star</item>
+        <item>&gt; 2 stars</item>
+        <item>&gt; 3 stars</item>
+        <item>&gt; 4 stars</item>
+        <item>5 stars</item>
+    </string-array>
+    <string name="app_name">Leisure Map</string>
+    <string name="find_activities">Find Activities</string>
+    <string name="map">Map</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="preferences">Choose preferences</string>
+    <string name="sign_in_sign_up">Sign In / Sign Up</string>
+    <string name="our_recommendations">Our Recommendations</string>
+    <string name="back">Back</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="search">Search</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="log_out">Log Out</string>
+</resources>
